@@ -809,6 +809,7 @@ canvas {
   color: #333;
   border-bottom: 2px dashed #CCC;
   padding: 16px;
+  margin: 16px 0;
 }
 
 .news-list .item:last-child a {
