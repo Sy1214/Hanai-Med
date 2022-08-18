@@ -17,6 +17,10 @@ body {
   padding: 0px;
 }
 
+ul {
+  padding: 0px;
+}
+
 *,
 *::before,
 *::after {
