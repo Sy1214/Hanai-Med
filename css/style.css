@@ -998,8 +998,8 @@ ol.act_list li:before {
   .works-list li {
     padding: 16px;
     background: #fff;
-    margin: 8px;
-    width: 46%;
+    margin: 6%px;
+    width: 42%;
     border-radius: 15px;
   }
 }
