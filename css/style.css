@@ -374,7 +374,6 @@ ul {
   z-index: 0;
   top: 56%;
   left: 108px;
-  /* writing-mode: vertical-rl; */
   color: #fff;
 }
 
@@ -386,8 +385,9 @@ ul {
     left: 50px;
     color: #fff;
   }
+
   .hero_img p {
- display: none;
+    display: none;
   }
 }
 
