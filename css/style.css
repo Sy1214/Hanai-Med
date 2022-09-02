@@ -143,15 +143,15 @@ ul {
 }
 
 #menu_toggle span:nth-of-type(1) {
-  top: 8px;
-}
-
-#menu_toggle span:nth-of-type(2) {
   top: 14px;
 }
 
-#menu_toggle span:nth-of-type(3) {
+#menu_toggle span:nth-of-type(2) {
   top: 20px;
+}
+
+#menu_toggle span:nth-of-type(3) {
+  top: 26px;
 }
 
 .menu_active span:nth-of-type(1) {
@@ -363,7 +363,7 @@ ul {
 
 @media (max-width: 768px) {
   .hero_img {
-    height: 92vh;
+    height: 80vh;
     background: url(../img/back_sp.png) center center / cover no-repeat;
     width: calc(100% - 24px);
   }
@@ -382,9 +382,12 @@ ul {
   .hero_img .cap {
     position: absolute;
     z-index: 0;
-    top: 56%;
-    left: 56px;
+    top: 50%;
+    left: 50px;
     color: #fff;
+  }
+  .hero_img p {
+ display: none;
   }
 }
 
@@ -414,7 +417,7 @@ ul {
   font-weight: 300;
   font-size: 4.0rem;
   letter-spacing: 0.4rem;
-  line-height: 3rem;
+  line-height: 5rem;
   font-family: 'Kosugi Maru', sans-serif;
   margin: 120px auto 96px;
   color: #1E72B5;
